@@ -1,4 +1,4 @@
 engines:
  cppcheck:
    enabled: true
-   language: javascript
+   language: JavaScript
