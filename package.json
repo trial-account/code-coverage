@@ -1,0 +1,14 @@
+{
+  "name": "code-cove",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "codacy-coverage": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-with-coverage": "jest --coverage && cat ./coverage/lcov.info | codacy-coverage"
+  },
+  "author": "",
+  "license": "MIT"
+}
